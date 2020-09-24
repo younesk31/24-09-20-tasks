@@ -43,12 +43,12 @@ int minusEn(int d) {
 
 void fibunacci(int a, int b) {
   println("________________");
-  int c = a + b;
-  if (c < 10000) {
+  int d = a + b;
+  if (d < 10000) {
     println(a+"   +   "+b);
-    println("= "+c);
+    println("= "+d);
     a = b;
-    b = c;
+    b = d;
     fibunacci(a,b);
   }
 }
