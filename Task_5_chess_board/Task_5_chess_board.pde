@@ -1,9 +1,9 @@
 int board[][] = new int[8][8];
-int sideLength = 40;
+int sideLength = 50;
 
 
 void setup() {
-  size(350, 350);
+  size(401, 401);
   for (int x = 0; x < board.length; x++) {
     for (int y = 0; y < board.length; y++) {
       if (x % 2 == 0) {
